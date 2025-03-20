@@ -74,13 +74,14 @@ services:
       - db
       - kafka
     # Run create_db.py then start the main app
-    command: ["sh", "-c", "python create_db.py && python app.py"]
+    command: ["sh", "-c", "python create_db.py drop && python create_db.py && python app.py"]
     networks:
       - lab8_network
     volumes:
       - ./logs:/app/logs
       - ./config/storage:/app/config
 
+  # Analyzer service
   analyzer:
     build:
       context: ./analyzer
@@ -96,6 +97,7 @@ services:
       - ./config/analyzer:/app/config
       - ./data/processing:/app/data/processing
 
+  # Processing service
   processing:
     build:
       context: ./processing
