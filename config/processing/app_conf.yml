@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: data/processing.json
+scheduler:
+  interval: 5
+eventstores:
+  player_performance:
+    url: "http://storage:8090/events/player-performance"
+  audience_interaction:
+    url: "http://storage:8090/events/audience-interaction"
