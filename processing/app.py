@@ -107,5 +107,4 @@ if __name__ == "__main__":
 
 # what setup volumes bindmounts?
 # difference between bind and volume
-# which service port forts
-# 
+# which service port

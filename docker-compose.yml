@@ -28,7 +28,7 @@ services:
     volumes:
       # Docker socket for dynamic config, plus a bind mount for Kafka logs
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./data/kafka-logs:/kafka/kafka-logs
+      - ./data/kafka:/kafka
     depends_on:
       - zookeeper
     networks:
@@ -74,7 +74,7 @@ services:
       - db
       - kafka
     # Run create_db.py then start the main app
-    command: ["sh", "-c", "python create_db.py drop && python create_db.py && python app.py"]
+    command: ["sh", "-c", "python create_db.py && python app.py"]
     networks:
       - lab8_network
     volumes:
@@ -121,3 +121,8 @@ volumes:
 networks:
   lab8_network:
     driver: bridge
+
+# docker compose down -v
+# delete kafka-logs
+# docker compose up -d
+# docker compose restart storage
