@@ -95,6 +95,7 @@ services:
     volumes:
       - ./logs:/app/logs
       - ./config/analyzer:/app/config
+      - ./data/processing:/app/data/processing
 
   # Processing service
   processing:

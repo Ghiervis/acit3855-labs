@@ -10055,3 +10055,145 @@ pykafka.exceptions.SocketDisconnectedError
 2025-03-19 23:49:27,055 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
 2025-03-19 23:49:27,056 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
 2025-03-19 23:49:27,057 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:11:40,610 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:11:40,697 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:11:40,755 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,756 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,757 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:11:40,758 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,759 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,762 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,763 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,764 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,765 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,766 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,767 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,768 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,769 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,770 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:11:40,771 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,772 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,773 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,773 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,774 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,775 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,776 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:11:40,777 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,777 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,778 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:11:40,778 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:11:40,779 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,779 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,780 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:11:40,781 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:11:40,781 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:11:40,782 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:11:40,783 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:11:40,784 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:33:21,122 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:33:21,266 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:33:21,362 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,363 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,364 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:33:21,365 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,366 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,370 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,372 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,373 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,374 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,375 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,375 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,376 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,378 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,379 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:33:21,380 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,380 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,381 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,381 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,382 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,383 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,383 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:33:21,384 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,387 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,387 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:33:21,388 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:33:21,389 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,390 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,391 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:33:21,392 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:33:21,394 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:33:21,395 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:33:21,396 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:33:21,396 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:37:32,101 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:37:32,211 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:37:32,379 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,383 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,384 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:37:32,385 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,386 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,389 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,390 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,391 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,394 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,398 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,399 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,402 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,411 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,413 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:37:32,414 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,419 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,422 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,425 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,427 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,429 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,432 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:37:32,435 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,441 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,444 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:37:32,446 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:37:32,447 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,449 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,450 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:37:32,451 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:37:32,451 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:37:32,456 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:37:32,457 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:37:32,458 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:43:42,622 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:43:42,694 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:43:42,748 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,749 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,751 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:43:42,751 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,752 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,755 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,755 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,756 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,757 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,757 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,758 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,760 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,760 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,761 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:43:42,762 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,762 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,763 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,764 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,765 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,766 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,767 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:43:42,768 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,768 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,769 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:43:42,770 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:43:42,770 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,771 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,772 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:43:42,773 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:43:42,773 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:43:42,775 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:43:42,775 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:43:42,776 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:45:22,538 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:45:22,615 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
