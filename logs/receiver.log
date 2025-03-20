@@ -10197,3 +10197,839 @@ pykafka.exceptions.SocketDisconnectedError
 2025-03-20 03:43:42,776 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
 2025-03-20 03:45:22,538 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
 2025-03-20 03:45:22,615 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:45:22,676 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,677 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,678 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:45:22,679 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,680 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,683 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,684 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,684 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,685 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,686 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,687 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,687 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,688 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,689 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:45:22,690 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,691 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,692 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,693 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,694 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,695 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,696 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:45:22,697 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,697 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,698 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:45:22,699 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:45:22,699 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,700 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,701 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:45:22,701 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:45:22,702 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:45:22,706 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:45:22,708 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:45:22,709 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 03:57:08,390 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 03:57:08,454 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:57:08,504 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,505 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,507 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:57:08,508 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,508 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,512 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,513 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,514 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,515 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,516 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,517 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,517 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,518 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,519 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 03:57:08,520 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,520 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,521 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,522 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,523 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,524 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,525 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:57:08,526 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,527 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,528 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 03:57:08,528 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 03:57:08,529 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,529 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,530 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 03:57:08,531 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 03:57:08,532 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 03:57:08,532 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 03:57:08,533 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 03:57:08,534 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 04:06:15,055 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 04:06:15,096 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 04:06:15,129 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,131 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,133 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 04:06:15,135 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,137 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,140 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,142 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,142 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,143 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,143 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,144 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,144 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,144 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,145 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 04:06:15,145 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,146 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,146 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,147 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,147 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,147 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,148 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 04:06:15,148 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,149 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,149 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 04:06:15,149 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 04:06:15,150 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,150 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,150 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 04:06:15,151 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:06:15,151 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:06:15,152 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 04:06:15,152 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 04:06:15,153 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 04:08:42,381 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:08:42,389 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:42,389 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:42,390 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:42,393 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:42,415 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:42,416 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:42,416 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:42,417 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:42,418 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:42,419 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:42,420 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:42,421 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:42,422 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:42,426 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:42,427 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:42,427 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:42,428 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:42,429 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:42,477 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:42,477 - basicLogger - INFO - Produced player-performance event with trace_id 8232e9e6-2ae8-4e28-b80b-5208da695c24
+2025-03-20 04:08:42,478 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c539550>
+2025-03-20 04:08:42,479 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:42,729 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:08:42,731 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:42,731 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:42,732 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:42,734 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:42,737 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:42,738 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:42,738 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:42,739 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:42,740 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:42,742 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:42,743 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:42,744 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:42,745 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:42,747 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:42,747 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:42,748 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:42,748 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:42,749 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:42,752 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:42,753 - basicLogger - INFO - Produced player-performance event with trace_id 55994e2a-83e9-4620-9aa6-c0ad364aead0
+2025-03-20 04:08:42,753 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c5487d0>
+2025-03-20 04:08:42,754 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:43,415 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:43,426 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:43,737 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:43,747 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:47,478 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:47,480 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:47,480 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,503 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:08:47,505 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:47,506 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:47,506 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:47,507 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:47,511 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,511 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:47,511 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:47,512 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:47,513 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:47,514 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:47,514 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:47,515 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:47,516 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:47,518 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,518 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:47,518 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:47,519 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:47,519 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:47,521 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:47,521 - basicLogger - INFO - Produced audience-interaction event with trace_id 57f06c2f-253f-4a83-9ee3-195ba47e8f54
+2025-03-20 04:08:47,522 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c549a90>
+2025-03-20 04:08:47,522 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:47,753 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:47,754 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:47,754 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,758 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:08:47,760 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:47,760 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:47,761 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:47,762 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:47,765 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,765 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:47,765 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:47,766 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:47,767 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:47,768 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:47,768 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:47,769 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:47,770 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:47,773 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:47,774 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:47,774 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:47,775 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:47,776 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:47,779 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:47,779 - basicLogger - INFO - Produced audience-interaction event with trace_id 00828a0f-4c13-4de0-af53-130a6539cf80
+2025-03-20 04:08:47,780 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c54d6e0>
+2025-03-20 04:08:47,780 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:48,478 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:48,510 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:48,518 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:48,754 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:48,764 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:48,773 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:52,522 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:52,523 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:52,523 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,527 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:08:52,528 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:52,529 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:52,529 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:52,530 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:52,534 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,534 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:52,534 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:52,535 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:52,536 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:52,536 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:52,536 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:52,537 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:52,538 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:52,540 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,540 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:52,541 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:52,541 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:52,541 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:52,544 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:52,544 - basicLogger - INFO - Produced player-performance event with trace_id 18e3b76b-7371-402c-8049-f94e7d48da48
+2025-03-20 04:08:52,544 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c54efd0>
+2025-03-20 04:08:52,544 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:52,780 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:52,781 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:52,781 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,785 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:08:52,786 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:52,786 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:52,787 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:52,788 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:52,791 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,792 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:52,792 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:52,792 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:52,793 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:52,793 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:52,794 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:52,795 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:52,795 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:52,797 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:52,797 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:52,798 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:52,798 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:52,799 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:52,801 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:52,801 - basicLogger - INFO - Produced player-performance event with trace_id 135de407-6fa9-4af4-ab65-89138f0a8d9e
+2025-03-20 04:08:52,802 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c532690>
+2025-03-20 04:08:52,802 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:53,522 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:53,533 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:53,540 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:53,780 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:53,791 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:53,797 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:57,544 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:57,545 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:57,545 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,549 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:08:57,550 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:57,551 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:57,551 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:57,552 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:57,553 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:57,556 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,556 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:57,556 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:57,557 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:57,558 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:57,559 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:57,559 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:57,560 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:57,561 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:57,563 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,564 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:57,564 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:57,565 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:57,565 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:57,568 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:57,568 - basicLogger - INFO - Produced audience-interaction event with trace_id 987a179a-b172-4401-921e-3977ac83ffdb
+2025-03-20 04:08:57,569 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530830>
+2025-03-20 04:08:57,569 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:57,801 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:08:57,802 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:57,802 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,806 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:08:57,807 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:08:57,807 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:08:57,808 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:57,809 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:57,811 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,812 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:08:57,812 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:08:57,812 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:08:57,813 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:08:57,814 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:08:57,814 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:08:57,814 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:08:57,815 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:08:57,819 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:08:57,819 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:08:57,820 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:08:57,820 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:08:57,821 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:08:57,824 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:08:57,824 - basicLogger - INFO - Produced audience-interaction event with trace_id e6db3f15-03d6-4346-aaf9-01ab9b789273
+2025-03-20 04:08:57,825 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c531010>
+2025-03-20 04:08:57,825 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:08:58,555 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:58,563 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:58,802 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:58,811 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:08:58,819 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:09:02,568 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:09:02,569 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:09:02,570 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:09:02,823 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:09:02,824 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:09:02,825 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:09:03,568 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:09:03,824 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:44,829 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:10:44,832 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:44,832 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:44,833 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:44,834 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:44,838 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:44,839 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:44,840 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:44,841 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:44,842 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:44,842 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:44,843 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:44,843 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:44,844 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:44,847 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:44,847 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:44,848 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:44,848 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:44,849 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:44,853 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:44,853 - basicLogger - INFO - Produced player-performance event with trace_id 3a0e7d9a-61c8-46f3-8c01-461832bac080
+2025-03-20 04:10:44,853 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530cb0>
+2025-03-20 04:10:44,853 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:45,338 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:10:45,340 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:45,341 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:45,342 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:45,343 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:45,346 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:45,346 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:45,347 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:45,348 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:45,349 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:45,350 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:45,351 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:45,352 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:45,353 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:45,355 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:45,356 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:45,356 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:45,357 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:45,358 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:45,360 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:45,360 - basicLogger - INFO - Produced player-performance event with trace_id 4e1e0516-c976-4166-bf4d-8c3d4fdad382
+2025-03-20 04:10:45,361 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530710>
+2025-03-20 04:10:45,362 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:45,838 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:45,847 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:46,345 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:46,355 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:49,853 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:10:49,854 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:49,854 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:49,859 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:10:49,861 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:49,861 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:49,862 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:49,863 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:49,866 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:49,866 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:49,867 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:49,867 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:49,869 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:49,869 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:49,870 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:49,871 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:49,872 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:49,875 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:49,875 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:49,876 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:49,876 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:49,877 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:49,882 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:49,882 - basicLogger - INFO - Produced audience-interaction event with trace_id eed909ae-576b-45ef-a26c-0f598d76f64d
+2025-03-20 04:10:49,883 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530cb0>
+2025-03-20 04:10:49,884 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:50,361 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:10:50,362 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:50,362 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:50,365 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:10:50,367 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:50,367 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:50,367 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:50,368 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:50,370 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:50,371 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:50,371 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:50,371 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:50,372 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:50,373 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:50,373 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:50,374 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:50,374 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:50,376 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:50,376 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:50,377 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:50,377 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:50,378 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:50,380 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:50,380 - basicLogger - INFO - Produced audience-interaction event with trace_id 32f49711-7522-4fb3-9bfb-6e685c97295b
+2025-03-20 04:10:50,380 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530830>
+2025-03-20 04:10:50,381 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:50,854 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:50,865 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:50,875 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:51,362 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:51,370 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:51,376 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:54,883 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:10:54,883 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:54,884 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:54,887 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:10:54,889 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:54,890 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:54,890 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:54,891 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:54,894 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:54,895 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:54,895 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:54,896 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:54,896 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:54,897 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:54,897 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:54,898 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:54,898 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:54,901 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:54,901 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:54,901 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:54,902 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:54,902 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:54,905 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:54,905 - basicLogger - INFO - Produced player-performance event with trace_id 6c92c648-066f-446d-9c59-f97f4846d8de
+2025-03-20 04:10:54,906 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530cb0>
+2025-03-20 04:10:54,906 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:55,380 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:10:55,381 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:55,381 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:55,385 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:10:55,387 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:55,387 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:55,387 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:55,388 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:55,391 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:55,392 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:55,392 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:55,393 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:55,394 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:55,394 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:55,395 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:55,395 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:55,396 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:55,398 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:55,398 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:55,398 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:55,399 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:55,399 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:55,404 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:55,404 - basicLogger - INFO - Produced player-performance event with trace_id 0cd14884-e868-41db-b7f0-ed1db92647a8
+2025-03-20 04:10:55,404 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530710>
+2025-03-20 04:10:55,405 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:55,883 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:55,894 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:55,901 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:56,381 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:56,391 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:56,398 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:10:59,906 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:10:59,906 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:10:59,907 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:59,911 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:10:59,913 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:10:59,914 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:10:59,914 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:59,915 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:59,919 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:59,920 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:10:59,920 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:10:59,921 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:10:59,922 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:10:59,922 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:10:59,923 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:10:59,923 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:10:59,924 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:10:59,926 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:10:59,928 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:10:59,931 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:10:59,932 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:10:59,933 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:10:59,935 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:10:59,935 - basicLogger - INFO - Produced audience-interaction event with trace_id 6dd54694-b4dc-4df4-954d-5c79f70a5340
+2025-03-20 04:10:59,936 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530cb0>
+2025-03-20 04:10:59,936 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:11:00,404 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:11:00,405 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:11:00,406 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:11:00,409 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:11:00,411 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:11:00,411 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:11:00,411 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:11:00,412 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:11:00,415 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:11:00,416 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:11:00,416 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:11:00,417 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:11:00,418 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:11:00,419 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:11:00,419 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:11:00,420 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:11:00,421 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:11:00,422 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:11:00,422 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:11:00,423 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:11:00,423 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:11:00,424 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:11:00,426 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:11:00,426 - basicLogger - INFO - Produced audience-interaction event with trace_id b1eee6b9-7e56-4600-bb5b-68fea5d50003
+2025-03-20 04:11:00,426 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530830>
+2025-03-20 04:11:00,427 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:11:00,906 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:00,918 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:00,926 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:01,405 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:01,415 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:01,422 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:04,935 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:11:04,936 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:11:04,936 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:11:05,425 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:11:05,426 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:11:05,427 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:11:05,935 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:11:06,426 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:01,886 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:12:01,888 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:01,889 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:01,893 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:01,894 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:01,897 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:01,897 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:01,897 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:01,901 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:01,902 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:01,903 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:01,903 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:01,906 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:01,907 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:01,909 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:01,909 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:01,909 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:01,910 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:01,910 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:01,913 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:01,913 - basicLogger - INFO - Produced player-performance event with trace_id fc16841d-e93e-4460-ad89-c190b431c9ed
+2025-03-20 04:12:01,914 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530ef0>
+2025-03-20 04:12:01,914 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:02,393 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:12:02,395 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:02,395 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:02,396 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:02,398 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:02,401 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:02,402 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:02,402 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:02,403 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:02,404 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:02,405 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:02,405 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:02,406 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:02,407 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:02,409 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:02,409 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:02,409 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:02,410 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:02,410 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:02,413 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:02,413 - basicLogger - INFO - Produced player-performance event with trace_id dbd1549e-f0ca-483d-bc15-b0fe300f5663
+2025-03-20 04:12:02,413 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c5329f0>
+2025-03-20 04:12:02,414 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:02,895 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:02,908 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:03,401 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:03,409 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:06,912 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:06,913 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:06,914 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:06,917 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:12:06,919 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:06,919 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:06,919 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:06,920 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:06,923 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:06,924 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:06,924 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:06,925 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:06,926 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:06,927 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:06,927 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:06,928 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:06,929 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:06,932 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:06,933 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:06,933 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:06,933 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:06,934 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:06,937 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:06,937 - basicLogger - INFO - Produced audience-interaction event with trace_id 9cd498b9-093a-430b-8c47-ac7360d9a16e
+2025-03-20 04:12:06,938 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530ef0>
+2025-03-20 04:12:06,938 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:07,413 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:07,414 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:07,415 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:07,419 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:12:07,420 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:07,420 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:07,421 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:07,421 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:07,424 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:07,424 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:07,424 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:07,424 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:07,425 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:07,426 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:07,426 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:07,427 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:07,428 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:07,431 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:07,431 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:07,431 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:07,432 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:07,432 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:07,434 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:07,434 - basicLogger - INFO - Produced audience-interaction event with trace_id 57bd1016-a98f-4840-ac07-41bb82f5c5dc
+2025-03-20 04:12:07,435 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c5320f0>
+2025-03-20 04:12:07,435 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:07,913 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:07,923 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:07,932 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:08,414 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:08,423 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:08,431 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:11,938 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:11,938 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:11,939 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:11,942 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:12:11,944 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:11,944 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:11,945 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:11,946 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:11,950 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:11,951 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:11,951 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:11,952 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:11,953 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:11,953 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:11,954 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:11,955 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:11,955 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:11,959 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:11,959 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:11,960 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:11,961 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:11,962 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:11,965 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:11,966 - basicLogger - INFO - Produced player-performance event with trace_id 569d7942-df23-4682-a79c-e2f743169cff
+2025-03-20 04:12:11,967 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530ef0>
+2025-03-20 04:12:11,968 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:12,435 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:12,436 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:12,436 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:12,440 - connexion.validators.parameter - DEBUG - /events/player-performance validating parameters...
+2025-03-20 04:12:12,442 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:12,442 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:12,443 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:12,443 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:12,446 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:12,447 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:12,448 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:12,448 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:12,449 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:12,450 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:12,450 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:12,450 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:12,451 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:12,453 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:12,454 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:12,454 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:12,454 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:12,455 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:12,457 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:12,457 - basicLogger - INFO - Produced player-performance event with trace_id 635b7eb1-1adf-42f0-81d9-eb24c550830a
+2025-03-20 04:12:12,458 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c5329f0>
+2025-03-20 04:12:12,458 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:12,938 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:12,949 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:12,959 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:13,436 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:13,446 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:13,453 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:16,967 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:16,968 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:16,968 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:16,971 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:12:16,973 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:16,973 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:16,973 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:16,974 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:16,976 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:16,977 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:16,977 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:16,977 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:16,978 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:16,978 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:16,979 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:16,979 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:16,979 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:16,981 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:16,981 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:16,981 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:16,982 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:16,983 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:16,985 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:16,985 - basicLogger - INFO - Produced audience-interaction event with trace_id d98d81f2-9931-4489-af3f-76f375d83f4b
+2025-03-20 04:12:16,985 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c530ef0>
+2025-03-20 04:12:16,985 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:17,458 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:17,459 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:17,459 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:17,462 - connexion.validators.parameter - DEBUG - /events/audience-interaction validating parameters...
+2025-03-20 04:12:17,464 - pykafka.cluster - INFO - Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+2025-03-20 04:12:17,464 - pykafka.cluster - DEBUG - Updating cluster, attempt 1/3
+2025-03-20 04:12:17,464 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:17,466 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:17,468 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:17,469 - pykafka.cluster - INFO - Discovered 1 brokers
+2025-03-20 04:12:17,469 - pykafka.cluster - DEBUG - Discovered broker id 1: b'kafka':29092
+2025-03-20 04:12:17,469 - pykafka.connection - DEBUG - Connecting to b'kafka':29092
+2025-03-20 04:12:17,470 - pykafka.connection - DEBUG - Successfully connected to b'kafka':29092
+2025-03-20 04:12:17,471 - pykafka.cluster - INFO - Discovered 2 topics
+2025-03-20 04:12:17,471 - pykafka.cluster - DEBUG - Discovered topic 'b'events''
+2025-03-20 04:12:17,475 - pykafka.connection - DEBUG - Connecting to kafka:29092
+2025-03-20 04:12:17,475 - pykafka.connection - DEBUG - Successfully connected to kafka:29092
+2025-03-20 04:12:17,477 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:17,477 - pykafka.topic - INFO - Adding 1 partitions
+2025-03-20 04:12:17,478 - pykafka.topic - DEBUG - Adding partition b'events'/0
+2025-03-20 04:12:17,478 - pykafka.producer - INFO - Starting new produce worker for broker 1
+2025-03-20 04:12:17,479 - pykafka.producer - DEBUG - Sending 1 messages to broker 1
+2025-03-20 04:12:17,481 - pykafka.producer - DEBUG - Successfully sent 1/1 messages to broker 1
+2025-03-20 04:12:17,481 - basicLogger - INFO - Produced audience-interaction event with trace_id 8498fbb1-79e3-4d1b-afa5-b5759925b1b6
+2025-03-20 04:12:17,482 - pykafka.producer - DEBUG - Finalising <pykafka.producer.Producer at 0x7fb29c5320f0>
+2025-03-20 04:12:17,482 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:17,967 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:17,976 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:17,981 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:18,458 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:18,468 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:18,478 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:21,985 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:21,986 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:21,987 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:22,482 - pykafka.producer - INFO - Worker exited for broker b'kafka':29092
+2025-03-20 04:12:22,482 - pykafka.producer - INFO - Blocking until all messages are sent or until pending_timeout_ms
+2025-03-20 04:12:22,483 - pykafka.handlers - INFO - RequestHandler.stop: about to flush requests queue
+2025-03-20 04:12:22,986 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:12:23,482 - pykafka.handlers - INFO - RequestHandler worker: exiting cleanly
+2025-03-20 04:19:41,249 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 04:19:41,319 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 04:19:41,379 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,380 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,381 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 04:19:41,381 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,382 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,385 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,385 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,386 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,387 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,388 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,388 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,389 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,389 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,390 - connexion.middleware.validation - DEBUG - Strict Request Validation: True
+2025-03-20 04:19:41,391 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,392 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,393 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,394 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,395 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,395 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,396 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 04:19:41,397 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,398 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,398 - connexion.middleware.security - DEBUG - ... Security: None
+2025-03-20 04:19:41,399 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...
+2025-03-20 04:19:41,399 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,400 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,401 - connexion.middleware.abstract - DEBUG - Adding /events/audience-interaction...
+2025-03-20 04:19:41,402 - connexion.operations.openapi3 - DEBUG - consumes: ['application/json']
+2025-03-20 04:19:41,403 - connexion.operations.openapi3 - DEBUG - produces: []
+2025-03-20 04:19:41,404 - connexion.middleware.swagger_ui - INFO - Adding spec json: /openapi.json
+2025-03-20 04:19:41,405 - connexion.middleware.swagger_ui - DEBUG - Adding spec yaml: //openapi.yaml
+2025-03-20 04:19:41,405 - connexion.middleware.swagger_ui - DEBUG - Adding swagger-ui: /ui/
+2025-03-20 04:24:09,044 - connexion.middleware.main - WARNING - `ConnexionMiddleware.run` is optimized for development. For production, run using a dedicated ASGI server.
+2025-03-20 04:24:09,094 - connexion.middleware.abstract - DEBUG - Adding /events/player-performance...

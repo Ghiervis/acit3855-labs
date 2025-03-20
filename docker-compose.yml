@@ -81,7 +81,6 @@ services:
       - ./logs:/app/logs
       - ./config/storage:/app/config
 
-  # Analyzer service
   analyzer:
     build:
       context: ./analyzer
@@ -97,7 +96,6 @@ services:
       - ./config/analyzer:/app/config
       - ./data/processing:/app/data/processing
 
-  # Processing service
   processing:
     build:
       context: ./processing
@@ -112,7 +110,7 @@ services:
     volumes:
       - ./logs:/app/logs
       - ./config/processing:/app/config
-      - ./data/processing:/app/data
+      - ./data/processing:/app/data/processing
 
 # Define named volumes and a custom network
 volumes:
