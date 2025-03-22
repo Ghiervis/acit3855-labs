@@ -1,32 +1,36 @@
-# Dockerfile for a Python microservice
+# Use the official Python base image
 FROM python:3
 
-# Set the maintainer label
 LABEL maintainer="gtuazon@my.bcit.ca"
 
-# Create the application directory
+# Create the application directory inside the container
 RUN mkdir /app
 
 # Copy the requirements file first to leverage Docker’s cache
+# This helps optimize builds by installing dependencies first before copying the full application
 COPY requirements.txt /app/requirements.txt
 
-# Set the working directory
+# Set the working directory to /app
 WORKDIR /app
+
+# Install setuptools to avoid potential issues with dependencies
 RUN pip3 install setuptools
-# Install Python dependencies
+
+# Install Python dependencies from the requirements file
+# --no-cache-dir prevents caching unnecessary files, reducing image size
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the source code into the container
+# Copy the rest of the application source code into the container
 COPY . /app
 
-# Change ownership of the app folder to a non-privileged user
+# Change ownership of the app directory to a non-root user for better security
 RUN chown -R nobody:nogroup /app
 
-# Switch to the non-privileged user
+# Switch to a non-privileged user to run the application securely
 USER nobody
 
-# Expose the port
+# Expose the application’s listening port
 EXPOSE 8100
 
-# Set the default command to run the service
+# Set the default command to run the Python application
 CMD ["python", "app.py"]

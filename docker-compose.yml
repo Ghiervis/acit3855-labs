@@ -1,128 +1,141 @@
+# fix volumes at kafka
+
 services:
-  # Zookeeper with data persisted
+  # Zookeeper service, which manages the Kafka cluster metadata
   zookeeper:
     image: wurstmeister/zookeeper
     ports:
-      - "2181:2181"
+      - "2181:2181"  # Exposing Zookeeper's port for communication
     volumes:
-      # Host folder mapped to /opt/zookeeper-3.4.13/data inside container
+      # Persisting Zookeeper data to the host machine
       - ./data/zookeeper:/opt/zookeeper-3.4.13/data
     networks:
-      - lab8_network
+      - lab8_network  # Connecting to the shared network
 
-  # Kafka with log dir set and broker ID
+  # Kafka service for handling events
   kafka:
     image: wurstmeister/kafka
     ports:
-      - "9092:9092"
+      - "9092:9092"  # Exposing Kafka externally
     environment:
-      KAFKA_CREATE_TOPICS: "events:1:1"
-      KAFKA_ADVERTISED_HOST_NAME: kafka
-      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
-      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LOG_DIRS: /kafka/kafka-logs     
-      KAFKA_BROKER_ID: 1                   
+      KAFKA_CREATE_TOPICS: "events:1:1"  # Creating an 'events' topic with 1 partition and 1 replica
+      KAFKA_ADVERTISED_HOST_NAME: kafka  # Setting the advertised hostname to match the service name
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092  # Defining internal and external listeners
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE  # Setting up internal broker communication
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092  # Exposing Kafka for external access
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT  # Using plaintext communication
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181  # Connecting to the Zookeeper service
+      KAFKA_LOG_DIRS: /kafka/kafka-logs  # Setting Kafka logs directory
+      KAFKA_BROKER_ID: 1  # Unique broker ID
     volumes:
-      # Docker socket for dynamic config, plus a bind mount for Kafka logs
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./data/kafka:/kafka
+      - /var/run/docker.sock:/var/run/docker.sock  # Allowing Kafka to communicate with Docker
+      - ./data/kafka:/kafka  # Persisting Kafka logs
     depends_on:
-      - zookeeper
+      - zookeeper  # Ensuring Zookeeper starts before Kafka
     networks:
       - lab8_network
 
-  # MySQL database
+  # MySQL database service for persistent storage
   db:
     image: mysql:8.0
-    restart: always
+    restart: always  # Ensuring MySQL restarts on failure
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_USER: ghiervis
-      MYSQL_PASSWORD: password
-      MYSQL_DATABASE: esport
+      MYSQL_ROOT_PASSWORD: password  # Root user password
+      MYSQL_USER: ghiervis  # Custom MySQL user
+      MYSQL_PASSWORD: password  # Password for the custom user
+      MYSQL_DATABASE: esport  # Creating an 'esport' database
     volumes:
-      - mysql_data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql  # Persisting MySQL data
     networks:
       - lab8_network
 
-  # Receiver service
+  # Receiver service for handling incoming events
   receiver:
     build:
       context: ./receiver
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - "8080:8080"  # Exposing Receiver service
     depends_on:
-      - kafka
+      - kafka  # Ensuring Kafka is up before Receiver starts
     networks:
       - lab8_network
     volumes:
-      - ./logs:/app/logs
-      - ./config/receiver:/app/config
+      - ./logs:/app/logs  # Mounting logs directory
+      - ./config/receiver:/app/config  # Mounting configuration files
 
-  # Storage service
+  # Storage service for persisting received data
   storage:
     build:
       context: ./storage
       dockerfile: Dockerfile
     ports:
-      - "8090:8090"
+      - "8090:8090"  # Exposing Storage service
     depends_on:
-      - db
-      - kafka
-    # Run create_db.py then start the main app
-    command: ["sh", "-c", "python create_db.py && python app.py"]
+      - db  # Ensuring MySQL is running before Storage starts
+      - kafka  # Storage depends on Kafka
+    command: ["sh", "-c", "python create_db.py && python app.py"]  # Initializing database before running the app
     networks:
       - lab8_network
     volumes:
-      - ./logs:/app/logs
-      - ./config/storage:/app/config
+      - ./logs:/app/logs  # Mounting logs
+      - ./config/storage:/app/config  # Mounting configuration files
 
-  # Analyzer service
+  # Analyzer service for aggregating and analyzing data
   analyzer:
     build:
       context: ./analyzer
       dockerfile: Dockerfile
     ports:
-      - "8110:8110"
+      - "8110:8110"  # Exposing Analyzer service
     depends_on:
-      - kafka
+      - kafka  # Ensuring Kafka is running before Analyzer starts
     networks:
       - lab8_network
     volumes:
-      - ./logs:/app/logs
-      - ./config/analyzer:/app/config
-      - ./data/processing:/app/data/processing
+      - ./logs:/app/logs  # Mounting logs
+      - ./config/analyzer:/app/config  # Mounting configuration files
+      - ./data/processing:/app/data/processing  # Mounting processed data storage
 
-  # Processing service
+  # Processing service for handling data transformation
   processing:
     build:
       context: ./processing
       dockerfile: Dockerfile
     ports:
-      - "8100:8100"
+      - "8100:8100"  # Exposing Processing service
     depends_on:
-      - storage
-      - kafka
+      - storage  # Ensuring Storage is up before Processing starts
+      - kafka  # Processing depends on Kafka
     networks:
       - lab8_network
     volumes:
-      - ./logs:/app/logs
-      - ./config/processing:/app/config
-      - ./data/processing:/app/data/processing
+      - ./logs:/app/logs  # Mounting logs
+      - ./config/processing:/app/config  # Mounting configuration files
+      - ./data/processing:/app/data/processing  # Mounting processing data storage
 
-# Define named volumes and a custom network
+# Defining persistent named volumes
 volumes:
-  mysql_data:
+  mysql_data:  # Named volume for MySQL data persistence
 
+# Defining a custom Docker network for inter-service communication
 networks:
   lab8_network:
-    driver: bridge
+    driver: bridge  # Using a bridge network for internal container communication
+
 
 # docker compose down -v
 # delete kafka-logs
 # docker compose up -d
 # docker compose restart storage
+
+# what setup volumes bindmounts?
+# mysql - ensures databse persist even container stops
+# Bind mounts directly map directories between the host machine and the container.
+
+# difference between bind and volume
+# Bind mounts are used for logs, config files, and processing data.
+# Named volumes are used for MySQL storage.
+
+# Use bind mounts when you need to share files directly between the host and the container (e.g., logs, configurations).
+# Use volumes for persistent data storage that should remain even if containers are removed (e.g., databases).

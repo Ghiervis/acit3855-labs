@@ -89,9 +89,3 @@ app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 if __name__ == "__main__":
     app.run(port=8110, host="0.0.0.0")
 
-# If stats are the same this means that the Processing Service 
-# has successfully consumed and stored all events from Kafka without missing any.
-
-# If stats are different it means that the Processing Service 
-# has not yet consumed or processed some Kafka messages.
-# Reasons: delay in processing events, processing service crashed, filter mech ignored some events.

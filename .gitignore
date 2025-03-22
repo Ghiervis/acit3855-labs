@@ -1,0 +1,5 @@
+logs/
+data/
+config/*prod*.yml
+__pycache__/
+*.pyc

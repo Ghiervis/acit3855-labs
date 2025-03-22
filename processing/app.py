@@ -104,7 +104,3 @@ if __name__ == "__main__":
     init_scheduler()
     # Listen on all interfaces so the container is externally accessible.
     app.run(port=8100, host="0.0.0.0")
-
-# what setup volumes bindmounts?
-# difference between bind and volume
-# which service port

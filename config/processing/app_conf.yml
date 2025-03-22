@@ -2,7 +2,7 @@ version: 1
 datastore:
   filename: "/app/data/processing/processing.json"
 scheduler:
-  interval: 5
+  interval: 3
 eventstores:
   player_performance:
     url: "http://storage:8090/events/player-performance"
