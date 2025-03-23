@@ -1,5 +1,6 @@
 # Ignore data and logs directories
 data/
+!data/processing/
 logs/
 
 # Ignore Python cache files
