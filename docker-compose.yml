@@ -139,3 +139,5 @@ networks:
 
 # Use bind mounts when you need to share files directly between the host and the container (e.g., logs, configurations).
 # Use volumes for persistent data storage that should remain even if containers are removed (e.g., databases).
+# In Lab 9, I deployed my Lab 8 microservices to a cloud VM using Ansible. I set up Docker and Docker Compose on the VM, cloned my GitHub repo using a secure deploy key, and used Ansible to create required folders and files (like logs/ and processing.json). 
+# Then I automated the service startup with docker-compose up, and verified the deployment using Postman and curl.
