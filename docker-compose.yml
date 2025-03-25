@@ -7,8 +7,8 @@ services:
     ports:
       - "2181:2181"  # Exposing Zookeeper's port for communication
     volumes:
-      # Persisting Zookeeper data to the host machine
-      - ./data/zookeeper:/opt/zookeeper-3.4.13/data
+      - zookeeper_data:/opt/zookeeper-3.4.13/data
+
     networks:
       - lab8_network  # Connecting to the shared network
 
@@ -117,7 +117,7 @@ services:
 # Defining persistent named volumes
 volumes:
   mysql_data:  # Named volume for MySQL data persistence
-
+  zookeeper_data:
 # Defining a custom Docker network for inter-service communication
 networks:
   lab8_network:
