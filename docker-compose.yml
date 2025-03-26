@@ -113,6 +113,15 @@ services:
       - ./logs:/app/logs  # Mounting logs
       - ./config/processing:/app/config  # Mounting configuration files
       - ./data/processing:/app/data/processing  # Mounting processing data storage
+    
+  dashboard:
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+    ports:
+      - "3000:80"
+    networks:
+      - lab8_network
 
 # Defining persistent named volumes
 volumes:
