@@ -92,10 +92,10 @@ from starlette.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
     position=MiddlewarePosition.BEFORE_EXCEPTION,
-    allow_origins=["*"],
+    allow_origins=["*"],         
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
 if __name__ == "__main__":
