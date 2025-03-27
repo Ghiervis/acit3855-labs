@@ -11,7 +11,10 @@ function updateDashboard() {
       document.getElementById("stats").textContent = JSON.stringify(data, null, 2);
       document.getElementById("updated-time").textContent = new Date().toLocaleString();
     })
-    .catch(err => console.error("Processing fetch failed:", err));
+    .catch(err => {
+      console.error("Processing fetch failed:", err);
+      document.getElementById("stats").textContent = "Error loading processing stats.";
+    });
 
   // Stats from analyzer
   fetch(analyzerURL)
@@ -19,12 +22,15 @@ function updateDashboard() {
     .then(data => {
       document.getElementById("analyzer").textContent = JSON.stringify(data, null, 2);
     })
-    .catch(err => console.error("Analyzer fetch failed:", err));
+    .catch(err => {
+      console.error("Analyzer fetch failed:", err);
+      document.getElementById("analyzer").textContent = "Error loading analyzer stats.";
+    });
 
   // One event of each type
   Promise.all([
-    fetch(ppEventURL).then(res => res.ok ? res.json() : Promise.reject("PP fetch error")),
-    fetch(aiEventURL).then(res => res.ok ? res.json() : Promise.reject("AI fetch error"))
+    fetch(ppEventURL).then(res => res.ok ? res.json() : Promise.reject("Player-performance fetch error")),
+    fetch(aiEventURL).then(res => res.ok ? res.json() : Promise.reject("Audience-interaction fetch error"))
   ])
   .then(([pp, ai]) => {
     document.getElementById("pp-event").textContent = JSON.stringify(pp, null, 2);
@@ -37,5 +43,6 @@ function updateDashboard() {
   });
 }
 
+// Auto-refresh every 3 seconds
 setInterval(updateDashboard, 3000);
 updateDashboard();
