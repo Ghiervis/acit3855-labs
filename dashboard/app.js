@@ -27,15 +27,13 @@ function updateDashboard() {
     fetch(aiEventURL).then(res => res.ok ? res.json() : Promise.reject("AI fetch error"))
   ])
   .then(([pp, ai]) => {
-    const display = {
-      "Player Performance": pp,
-      "Audience Interaction": ai
-    };
-    document.getElementById("event").textContent = JSON.stringify(display, null, 2);
+    document.getElementById("pp-event").textContent = JSON.stringify(pp, null, 2);
+    document.getElementById("ai-event").textContent = JSON.stringify(ai, null, 2);
   })
   .catch(err => {
     console.error("Event fetch error:", err);
-    document.getElementById("event").textContent = "Error fetching event data.";
+    document.getElementById("pp-event").textContent = "Error loading player-performance event.";
+    document.getElementById("ai-event").textContent = "Error loading audience-interaction event.";
   });
 }
 
