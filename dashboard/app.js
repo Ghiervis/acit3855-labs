@@ -1,48 +1,57 @@
 const processingURL = "http://34.218.112.68:8100/stats";
 const analyzerURL = "http://34.218.112.68:8110/stats";
-const ppEventURL = "http://34.218.112.68:8110/events/player-performance?index=0";
-const aiEventURL = "http://34.218.112.68:8110/events/audience-interaction?index=0";
+const ppEventBaseURL = "http://34.218.112.68:8110/events/player-performance";
+const aiEventBaseURL = "http://34.218.112.68:8110/events/audience-interaction";
 
 function updateDashboard() {
-  // Stats from processing
+  // Update stats from processing
   fetch(processingURL)
     .then(res => res.json())
     .then(data => {
       document.getElementById("stats").textContent = JSON.stringify(data, null, 2);
       document.getElementById("updated-time").textContent = new Date().toLocaleString();
     })
-    .catch(err => {
-      console.error("Processing fetch failed:", err);
-      document.getElementById("stats").textContent = "Error loading processing stats.";
-    });
+    .catch(err => console.error("Processing fetch failed:", err));
 
-  // Stats from analyzer
+  // Update stats from analyzer
   fetch(analyzerURL)
     .then(res => res.json())
     .then(data => {
       document.getElementById("analyzer").textContent = JSON.stringify(data, null, 2);
+
+      // Get random indexes
+      const ppIndex = Math.floor(Math.random() * data.num_player_performance);
+      const aiIndex = Math.floor(Math.random() * data.num_audience_interaction);
+
+      // Fetch random player-performance event
+      fetch(`${ppEventBaseURL}?index=${ppIndex}`)
+        .then(res => res.ok ? res.json() : Promise.reject("PP fetch error"))
+        .then(pp => {
+          document.getElementById("pp-event").textContent = JSON.stringify(pp, null, 2);
+        })
+        .catch(err => {
+          console.error("Random player-performance event error:", err);
+          document.getElementById("pp-event").textContent = "Error loading player-performance event.";
+        });
+
+      // Fetch random audience-interaction event
+      fetch(`${aiEventBaseURL}?index=${aiIndex}`)
+        .then(res => res.ok ? res.json() : Promise.reject("AI fetch error"))
+        .then(ai => {
+          document.getElementById("ai-event").textContent = JSON.stringify(ai, null, 2);
+        })
+        .catch(err => {
+          console.error("Random audience-interaction event error:", err);
+          document.getElementById("ai-event").textContent = "Error loading audience-interaction event.";
+        });
+
     })
     .catch(err => {
       console.error("Analyzer fetch failed:", err);
       document.getElementById("analyzer").textContent = "Error loading analyzer stats.";
     });
-
-  // One event of each type
-  Promise.all([
-    fetch(ppEventURL).then(res => res.ok ? res.json() : Promise.reject("Player-performance fetch error")),
-    fetch(aiEventURL).then(res => res.ok ? res.json() : Promise.reject("Audience-interaction fetch error"))
-  ])
-  .then(([pp, ai]) => {
-    document.getElementById("pp-event").textContent = JSON.stringify(pp, null, 2);
-    document.getElementById("ai-event").textContent = JSON.stringify(ai, null, 2);
-  })
-  .catch(err => {
-    console.error("Event fetch error:", err);
-    document.getElementById("pp-event").textContent = "Error loading player-performance event.";
-    document.getElementById("ai-event").textContent = "Error loading audience-interaction event.";
-  });
 }
 
-// Auto-refresh every 3 seconds
+// Auto refresh every 3 seconds
 setInterval(updateDashboard, 3000);
 updateDashboard();
