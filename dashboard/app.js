@@ -1,7 +1,7 @@
 const processingURL = "http://34.218.112.68:8100/stats";
 const analyzerURL = "http://34.218.112.68:8110/stats";
-const ppEventURL = "http://34.218.112.68:8110/events/player-performance?index=0";
-const aiEventURL = "http://34.218.112.68:8110/events/audience-interaction/index=0";
+const ppEventURL = "http://34.218.112.68:8110/events/player-performance/0";
+const aiEventURL = "http://34.218.112.68:8110/events/audience-interaction/0";
 
 function updateDashboard() {
   // Stats from processing
