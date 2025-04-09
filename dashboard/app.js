@@ -2,6 +2,7 @@ const processingURL = "http://34.218.112.68:8100/stats";
 const analyzerURL = "http://34.218.112.68:8110/stats";
 const ppEventBaseURL = "http://34.218.112.68:8110/events/player-performance";
 const aiEventBaseURL = "http://34.218.112.68:8110/events/audience-interaction";
+const checkURL = "http://34.218.112.68:8200/checks";
 
 function updateDashboard() {
   // Update stats from processing
@@ -49,6 +50,15 @@ function updateDashboard() {
     .catch(err => {
       console.error("Analyzer fetch failed:", err);
       document.getElementById("analyzer").textContent = "Error loading analyzer stats.";
+    });
+
+  fetch(checkURL)
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("consistency-check").textContent = JSON.stringify(data, null, 2);
+    })
+    .catch(err => {
+      document.getElementById("consistency-check").textContent = "Failed to fetch consistency check.";
     });
 }
 

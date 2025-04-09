@@ -36,3 +36,6 @@ paths:
                 properties:
                   message:
                     type: string
+
+servers:
+  - url: /processing

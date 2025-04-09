@@ -43,3 +43,6 @@ paths:
       responses:
         '200':
           description: Successfully retrieved events
+
+servers:
+  - url: /storage

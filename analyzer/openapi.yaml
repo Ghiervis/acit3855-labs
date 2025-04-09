@@ -77,3 +77,6 @@ paths:
                   num_audience_interaction:
                     type: integer
                     example: 5
+
+servers:
+  - url: /analyzer

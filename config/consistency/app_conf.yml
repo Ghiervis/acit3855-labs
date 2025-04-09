@@ -1,0 +1,13 @@
+datastore:
+  filename: /app/data/checks.json
+
+events:
+  player_performance_url: http://analyzer:8110/events/player-performance
+  audience_interaction_url: http://analyzer:8110/events/audience-interaction
+
+stats:
+  processing_url: http://processing:8100/stats
+  analyzer_url: http://analyzer:8110/stats
+
+scheduler:
+  period_sec: 10
