@@ -54,8 +54,8 @@ services:
     build:
       context: ./receiver
       dockerfile: dockerfile
-    # ports:
-    #   - "8080:8080"  # Exposing Receiver service
+    ports:
+      - "8080:8080"  # Exposing Receiver service
     depends_on:
       - kafka  # Ensuring Kafka is up before Receiver starts
     networks:
