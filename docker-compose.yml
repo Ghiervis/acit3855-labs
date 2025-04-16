@@ -123,37 +123,6 @@ services:
     networks:
       - lab8_network
 
-  proxy:
-    image: nginx:latest
-    ports:
-      - "3001:80"
-    volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - receiver
-      - storage
-      - processing
-      - analyzer
-      - consistency_check
-      - dashboard
-    networks:
-        - lab8_network
-
-  consistency_check:
-    build:
-      context: ./consistency_check
-      dockerfile: Dockerfile
-    ports:
-      - "8200:8200"
-    volumes:
-      - ./data/consistency:/app/data
-      - ./config/consistency:/app/config
-    depends_on:
-      - analyzer
-      - processing
-    networks:
-      - lab8_network
-
 
 # Defining persistent named volumes
 volumes:
