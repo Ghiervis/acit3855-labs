@@ -78,5 +78,5 @@ paths:
                     type: integer
                     example: 5
 
-servers:
-  - url: /analyzer
+# servers:
+#   - url: /analyzer

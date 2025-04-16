@@ -49,6 +49,6 @@ paths:
         '201':
           description: Audience interaction event produced
 
-servers:
-  - url: /receiver
+# servers:
+#   - url: /receiver
 

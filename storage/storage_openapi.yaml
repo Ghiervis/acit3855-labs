@@ -44,5 +44,5 @@ paths:
         '200':
           description: Successfully retrieved events
 
-servers:
-  - url: /storage
+# servers:
+#   - url: /storage
