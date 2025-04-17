@@ -1,4 +1,5 @@
 connexion[swagger-ui]
+connexion[flask]
 flask-cors
 pyyaml
 requests
