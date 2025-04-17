@@ -123,6 +123,15 @@ services:
     networks:
       - lab8_network
 
+  anomaly_detector:
+    build: ./anomaly_detector
+    ports:
+      - "8210:8210"
+    depends_on:
+      - kafka
+    volumes:
+      - ./anomaly_detector/data:/app/data
+
 
 # Defining persistent named volumes
 volumes:
